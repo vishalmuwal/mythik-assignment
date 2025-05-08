@@ -1,0 +1,52 @@
+.user-repos {
+  margin: 2rem auto;
+  max-width: 1000px;
+}
+
+.repos-grid {
+  display: block;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.repo-card {
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.repo-card h4 {
+  margin: 0 0 1rem 0;
+  color: var(--text-primary);
+}
+
+.repo-card p {
+  margin: 0 0 1rem 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.repo-stats {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  color: #666;
+}
+
+.repo-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #2ea44f;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+}
+
+.repo-link:hover {
+  background-color: #2c974b;
+}

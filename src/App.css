@@ -1,0 +1,54 @@
+.app {
+  margin: 0 auto;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 800px;
+  box-sizing: border-box;
+}
+
+.theme-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  color: var(--text-primary);
+}
+
+.error {
+  color: #ff4444;
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: rgba(255, 68, 68, 0.1);
+  border-radius: 8px;
+}
+
+:root {
+  --bg-primary: #ffffff;
+  --text-primary: #333333;
+  --border-color: #e1e4e8;
+}
+
+[data-theme="dark"] {
+  --bg-primary: #0d1117;
+  --text-primary: #c9d1d9;
+  --border-color: #30363d;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+  display: block;
+  min-width: 320px;
+  min-height: 100vh;
+}
