@@ -12,6 +12,7 @@ A React application that allows users to search for GitHub profiles and view the
   - Following count
   - Public repository count
 - Display user's top 5 repositories sorted by stars
+- **Light and Dark theme toggle** to switch between themes
 - Responsive design
 - Loading states with shimmer effect
 - Error handling
