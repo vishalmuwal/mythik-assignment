@@ -9,7 +9,7 @@ const UserRepos = ({ repos }) => {
 
   return (
     <div className="user-repos">
-      <h3>Top Public Repositories</h3>
+      <h3>Top Repositories</h3>
       <div className="repos-grid">
         {topRepos.map((repo) => (
           <div key={repo.id} className="repo-card">
